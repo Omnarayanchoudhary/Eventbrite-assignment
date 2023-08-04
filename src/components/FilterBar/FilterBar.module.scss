@@ -1,0 +1,24 @@
+@import '../../sass/shared.scss';
+
+.container {
+    background: $color-white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.title {
+    color: $color-blue-dark;
+    margin-bottom: 16px;
+}
+
+.buttonSearch {
+    background: $primary-color;
+    border-color: $primary-color;
+    border-radius: 0;
+
+    &:hover {
+        background: $primary-color;
+        border-color: $primary-color;
+    }
+}

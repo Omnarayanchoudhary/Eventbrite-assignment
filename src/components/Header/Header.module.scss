@@ -1,0 +1,11 @@
+@import '../../sass/shared.scss';
+
+.container {
+    background: $primary-color;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.title {
+    color: $color-white;
+}
